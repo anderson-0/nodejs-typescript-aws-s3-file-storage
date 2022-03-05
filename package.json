@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-cloudinary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A Rest API to save, retrieve and delete files from AWS S3 cloud storage and save information on SQlite using Prisma ORM",
+  "author": "Anderson da Silva<anderson.consultant.it@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only --inspect --ignore-watch node_modules src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.3.0",
+    "aws-sdk": "^2.1018.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^16.11.6",
+    "prisma": "^3.3.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}
